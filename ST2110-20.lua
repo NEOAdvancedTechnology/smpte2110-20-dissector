@@ -41,7 +41,7 @@ do
  
     function st2110-20.dissector(tvb, pinfo, tree)
         local subtree = tree:add(st2110-20, tvb(),"ST 2110-20 Data")  
-        subtree:add(F.ESN, tvb(0,2)) -- in 16 bits
+        subtree:add(F.ESN, tvb(0,2)) 
         local Offset=0
         local ScanLines=0
         local LineLength={}
