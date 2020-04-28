@@ -3,6 +3,8 @@ SMPTE ST 2110-20 dissector
 
 Wireshark dissector in Lua for SMPTE ST 2110-20 data in RTP
 
+Project Lead: Thomas Edwards (thomas.edwards@disney.com)
+
 to use in Wireshark:
 
 1) Ensure your Wireshark works with Lua plugins - "About Wireshark" should say it is compiled with Lua
